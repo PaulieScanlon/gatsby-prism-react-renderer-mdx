@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-prism-react-renderer-mdx",
+  "version": "1.0.0",
+  "description": "An example repo showing how to use Formidable's Prism React Renderer with Gatsby and MDX",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/gatsby-prism-react-renderer-mdx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/gatsby-prism-react-renderer-mdx/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/gatsby-prism-react-renderer-mdx#readme",
+  "dependencies": {
+    "@mdx-js/mdx": "v1",
+    "@mdx-js/react": "v1",
+    "gatsby": "^4.20.0",
+    "gatsby-plugin-mdx": "^3.20.0",
+    "gatsby-source-filesystem": "^4.20.0",
+    "prism-react-renderer": "^1.3.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,49 @@
+---
+title: This is post one
+date: 2022-08-05
+---
+
+This is a post with code blocks for `javascript`, `diff`, `html`, and `css`.
+
+```javascript
+// src/pages/some-page.js
+
+const Page = () => {
+  return (
+    <main className="page">
+      <h1>Some Page</h1>
+    </main>
+  );
+};
+
+export default Page;
+```
+
+```diff
+// src/pages/some-page.js
+
+const Page = () => {
+  return (
+    <main className="page">
+-      <h1>Some Page</h1>
++      <h2>Some Page</h2>
+    </main>
+  );
+};
+
+export default Page;
+```
+
+```html
+// some-html.html
+
+<main className='page'></h1>Some Page</h1></main>
+```
+
+```css
+// some-css.css
+
+.page {
+  border: 1px solid red;
+}
+```
