@@ -4,6 +4,7 @@ module.exports = {
     name: 'gatsby-prism-react-renderer-mdx'
   },
   plugins: [
+    'gatsby-plugin-postcss',
     'gatsby-plugin-mdx',
     {
       resolve: 'gatsby-source-filesystem',

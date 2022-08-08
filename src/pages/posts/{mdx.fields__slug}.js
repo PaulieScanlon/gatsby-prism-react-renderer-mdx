@@ -1,5 +1,5 @@
-import React from 'react';
-import { graphql } from 'gatsby';
+import React, { Fragment } from 'react';
+import { graphql, Link } from 'gatsby';
 
 import { MDXProvider } from '@mdx-js/react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
@@ -20,13 +20,14 @@ const Page = ({
     }
   }
 }) => (
-  <main>
+  <Fragment>
+    <Link to="/">Back</Link>
     <h1>{title}</h1>
     <small>{date}</small>
     <MDXProvider components={components}>
       <MDXRenderer>{body}</MDXRenderer>
     </MDXProvider>
-  </main>
+  </Fragment>
 );
 
 export const query = graphql`
