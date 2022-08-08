@@ -22,11 +22,10 @@
   },
   "homepage": "https://github.com/PaulieScanlon/gatsby-prism-react-renderer-mdx#readme",
   "dependencies": {
-    "@mdx-js/mdx": "v1",
-    "@mdx-js/react": "v1",
-    "gatsby": "^4.20.0",
-    "gatsby-plugin-mdx": "^3.20.0",
-    "gatsby-source-filesystem": "^4.20.0",
+    "@mdx-js/react": "^2.1.2",
+    "gatsby": "4.20.0-mdxv4-rc.65",
+    "gatsby-plugin-mdx": "4.0.0-rc.3",
+    "gatsby-source-filesystem": "4.20.0-mdxv4-rc.124",
     "prism-react-renderer": "^1.3.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
